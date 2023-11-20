@@ -1,5 +1,5 @@
 public class Raum extends Heizung{
-    Heizung heizung;
+    private Heizung heizung;
     public Raum(){
         this.heizung = new Heizung();
     }
